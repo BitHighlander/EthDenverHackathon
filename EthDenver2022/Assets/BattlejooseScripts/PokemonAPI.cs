@@ -12,6 +12,7 @@ public class PokemonAPI : MonoBehaviour
     public Text pokeNameText;
     public Text pokeNumText;
     public Text pokePicURL;
+
     public InputField inputField;
     
 
