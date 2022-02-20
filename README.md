@@ -40,6 +40,7 @@ keepkey: (https://shapeshift.com/keepkey)
 ## utilized technologies
 
 * unity game engine
+* Oculus Quest (with Oculus Link)
 * photon networking sas (https://www.photonengine.com/pun)
 * keepkey desktop app
 * Swagger (OpenAPI) api docs (https://swagger.io/)
@@ -50,12 +51,18 @@ keepkey: (https://shapeshift.com/keepkey)
 
 https://github.com/keepkey/keepkey-desktop/releases
 
+open client
+![client](https://github.com/BitHighlander/EthDenverHackathon/blob/main/docs/welcome-screen.png)
+
+load wallet:
+![client](https://github.com/BitHighlander/EthDenverHackathon/blob/main/docs/client-4.png)
+
+open dev tools
+![client](https://github.com/BitHighlander/EthDenverHackathon/blob/main/docs/client-3.png)
+
 This stands up a local api you can talk to your keepkey with. 
 
+![api](https://github.com/BitHighlander/EthDenverHackathon/blob/main/docs/client-1.png)
 
-
-Then you need to set up your oculus with the oculus link cable.
-
-----picture of headset and usbc
 
 
