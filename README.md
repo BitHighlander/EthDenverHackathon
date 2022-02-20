@@ -1,15 +1,58 @@
 # EthDenverHackathon
  BuidlWeek
 
-This is a unity project, so you'll need to open it with Unity once we get going, but theres some things we need first.
+Concept: native bindings for wallets into the unity game engine
 
-Keepkey client 
+problem: As crypto projects evolve into the metaverse most are attempting to bring game engines into the browser. This severely limits the reach the crypto ecosystem. as window objects and metmask just are incompatible with modern day game engines.
+
+solution: By utilizing a native (on desktop) RESTful wallet api provided by the keepkey Desktop; we are able to bring full crypto features to all the top tier game engines natively without the need of browsers.
+
+
+### dev flow
+
+This is a unity project, 
+
+unity setup:
+
+install unity hub(https://unity3d.com/get-unity/download)
+
+```
+git clone https://github.com/battlejoose/EthDenverHackathon
+```
+
+Open project in unity hub
+
+view scenes
+```
+moondemo
+```
+open moonDemo scene.
+
+
+### Required hardware
+
+oculus quest 2: (https://www.oculus.com/quest-2/)
+
+keepkey: (https://shapeshift.com/keepkey)
+
+(if you do not have a keepkey the desktop app can init/load a mnemonic from metamask)
+
+## utilized technologies
+
+* unity game engine
+* photon networking sas (https://www.photonengine.com/pun)
+* keepkey desktop app
+* Swagger (OpenAPI) api docs (https://swagger.io/)
+* pioneer.devs a generalized crypto API (https://pioneers.dev/docs/)
+* opensea.io NTF info and indexing (https://opensea.io/)
+
+### Keepkey client 
 
 https://github.com/keepkey/keepkey-desktop/releases
 
 This stands up a local api you can talk to your keepkey with. 
 
------picture of docs here
+
 
 Then you need to set up your oculus with the oculus link cable.
 
